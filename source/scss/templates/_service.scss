@@ -63,9 +63,9 @@
 	content:"";
 	top: 0;
 	bottom: 0;
-	left: 50%;
+	// left: 50%;
 	z-index: 0;
-	width: 2px;
+	width: 4px;
 	height:auto;
 	margin-left: -1px;
 	background-color: #eee;
@@ -76,7 +76,7 @@
 	display: block;
 	position: absolute;
 	top: 75px;
-	left: 50%;
+	// left: 50%;
 	z-index: 1;
 	content: " ";
 	width: 20px;

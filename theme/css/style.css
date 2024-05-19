@@ -424,6 +424,10 @@ a:focus {
   font-weight: 600;
   width: 100px;
 }
+.navbar-brandf {
+  /* font-weight: 600; */
+  width: 150px;
+}
 
 .dropdown-menu {
   visibility: hidden;
@@ -589,6 +593,7 @@ ul.dropdown-menu li {
   position: relative;
   overflow: hidden;
   background: #fff;
+  /* left: 10%; */
   background: url("../images/bg/main-banner1.jpg") no-repeat 80% 50%;
   background-size: cover;
   padding: 120px 0px;
@@ -857,9 +862,9 @@ ul.dropdown-menu li {
   content: "";
   top: 0;
   bottom: 0;
-  left: 50%;
+  /* left: 50%; */
   z-index: 0;
-  width: 2px;
+  width: 4px;
   height: auto;
   margin-left: -1px;
   background-color: #eee;
@@ -869,7 +874,7 @@ ul.dropdown-menu li {
   display: block;
   position: absolute;
   top: 75px;
-  left: 50%;
+  /* left: 50%; */
   z-index: 1;
   content: " ";
   width: 20px;
