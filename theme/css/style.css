@@ -409,7 +409,7 @@ a:focus {
   color: #111;
   font-family: "Rubik", sans-serif;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 20px;
   transition: all 0.25s ease;
 }
 
@@ -458,7 +458,7 @@ a:focus {
 .dropdown-item {
   padding: 0.8rem 1.5rem;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .dropdown-item:hover {
@@ -569,10 +569,12 @@ ul.dropdown-menu li {
   }
   .navbar-toggler {
     color: #111;
+    font-size: 2rem !important;
   }
   .dropdown-menu {
     display: none;
     width: 100%;
+    font-size: 2rem;
     text-align: center;
   }
   .header-padding {
@@ -588,6 +590,21 @@ ul.dropdown-menu li {
   background: url("../images/bg/home-5.jpg");
   background-size: cover;
 }
+.bg-22 {
+  background: url("../images/bg/bg-22.jpg");
+  background-size: cover;
+}
+
+.hero-bg-img{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    /* left: 10%; */
+    /* background: url("../images/bg/main-banner1.jpg") no-repeat 80% 50%; */
+    background-size: cover;
+    padding: 120px 0px;
+    min-height: 800px;
+}
 
 .banner {
   position: relative;
@@ -598,9 +615,10 @@ ul.dropdown-menu li {
   background-size: cover;
   padding: 120px 0px;
   min-height: 800px;
+  width: 100%;
 }
 .banner .block {
-  padding-top: 120px;
+  padding-top: 130px;
 }
 .banner .block h1 {
   font-size: 75px;
@@ -920,6 +938,11 @@ ul.dropdown-menu li {
 }
 .cta {
   background: url("../images/bg/bg-2.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cta2 {
+  background: url("../images/bg/bg-22.jpg") no-repeat;
   background-size: cover;
   position: relative;
 }
