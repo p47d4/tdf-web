@@ -1,8 +1,8 @@
 {
-  "name": "orbitor",
+  "name": "tdf",
   "version": "1.0.0",
-  "description": "orbitor free bootstrap agency template",
-  "author": "Themefisher",
+  "description": "the dada foundation",
+  "author": "p47d4",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
