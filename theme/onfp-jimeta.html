@@ -25,6 +25,17 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
+
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
 </head>
 
 <body>
@@ -33,7 +44,7 @@
 	<nav class="navbar navbar-expand-lg py-4 navigation header-padding nav-text-white" id="navbar">
 		<div class="container-fluid">
 		  <a class="navbar-brand" href="index.html">
-		  	<img src="images/logo.png" alt="" class="img-fluid">
+		  	<img src="images/logo.png" alt="" class="img-fluidlogo">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,12 +64,14 @@
 						<li><a class="dropdown-item" href="objectives.html">Our Objectives</a></li>
 						<li><a class="dropdown-item" href="team.html">Our Team</a></li>
 						<li><a class="dropdown-item" href="prescence.html">Our Prescence</a></li>
+						<li><a class="dropdown-item" href="gallery.html">Our Gallery</a></li>
+
 					</ul>
 			  </li>
 			    <li class="nav-item"><a class="nav-link" href="project.html">Our Programs</a></li>
 			   
 			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-			   <li style="padding-left: 35px;"class="nav-item"><a href="donate.html" class="nav-link btn-main">Donate <i class="fa fa-angle-right ml-2"></i></a></li>
+			   <li style="padding-left: 35px;"class="nav-item"><a href="donate.html" class="nav-link btn btn-main btn-round-full float-lg-right">Donate <i class="fa fa-angle-right ml-2"></i></a></li>
 			</ul>
 
 			<!-- <a href="contact.html" class="btn btn-solid-border d-none d-lg-block">Donate <i class="fa fa-angle-right ml-2"></i></a> -->
@@ -119,9 +132,7 @@
 
 							<li><strong>Location: </strong>Jimeta, Adamawa</li>
 							<li><strong>Date of Launch:</strong> May 24, 2024</li>
-							<!-- <li><strong>Project Start Date:</strong> February 18, 2018</li> -->
-
-							<!-- <li><strong>Project Completion Date:</strong> January 25, 2018</li> -->
+							
 							<li><strong>Program url:</strong> www.thedadafoundation.org.ng/onfp-jimeta</li>
 						</ul>
                         <!-- AddToAny BEGIN -->
@@ -143,26 +154,30 @@
 			</div>
 
             <div class="row">
-				<div class="col-md-3">
-					<!-- <div class="case-img"> -->
-						<img src="images/onfpJimeta/1.jpeg" alt="" class="img-fluid">
-					<!-- </div> -->
-				</div>
-				<div class="col-md-3">
-					<!-- <div class="case-img"> -->
-						<img src="images/onfpJimeta/2.jpeg" alt="" class="img-fluid">
-					<!-- </div> -->
-				</div>
-				<div class="col-md-3">
-					<!-- <div class="case-img"> -->
-						<img src="images/onfpJimeta/3.jpeg" alt="" class="img-fluid">
-					<!-- </div> -->
-				</div>
-				<div class="col-md-3">
-					<!-- <div class="case-img"> -->
-						<img src="images/onfpJimeta/1.jpeg" alt="" class="img-fluid">
-					<!-- </div> -->
-				</div>
+				<div class="portfolio-item row">
+					<div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+					   <a href="images/onfpjimeta/1.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
+					   <img class="img-fluid" src="images/onfpjimeta/1.jpeg" alt="">
+					   </a>
+					</div>
+					<div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+					   <a href="images/onfpjimeta/2.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
+					   <img class="img-fluid" src="images/onfpjimeta/2.jpeg" alt="">
+					   </a>
+					</div>
+					<div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+					   <a href="images/onfpjimeta/3.jpeg" class="fancylight popup-btn" data-fancybox-group="light">
+					   <img class="img-fluid" src="images/onfpjimeta/3.jpeg" alt="">
+					   </a>
+					</div>
+					<div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+					   <a href="images/onfpjimeta/4.jpeg" class="fancylight popup-btn" data-fancybox-group="light">
+					   <img class="img-fluid" src="images/onfpjimeta/4.jpeg" alt="">
+					   </a>
+					</div>
+					
+					
+				 </div>
 				
 
 			</div>
@@ -171,95 +186,52 @@
 </section>
 
 
- <section class="section-xm">
+<section class="section-xm">
 	<div class="container">
-		<!--<div class="row"> -->
-			<div class="row">
-			
-				<div class="col-lg-12 col-md-8">
-					<div class="case-content pl-4 mt-4 mt-lg-0">
-						<h3 class="mb-3">Problem Statement</h3>
+		<div class="row">
+			<div class="col-lg-12 col-md-8">
+				<div class="case-content pl-4 mt-4 mt-lg-0">
+					<h1 class="mb-3">More On ONFP Jimeta</h1>
+					<h3 class="mb-3">Jimeta's Orphans Deserve to Thrive: A Call to Action for Nourishment and Hope</h3>
 
-						<p>Many orphanages in Northern Nigeria face significant challenges in providing adequate and nutritious meals to their children. These challenges stem from a combination of factors, including limited funding, supply chain disruptions, and inadequate access to nutritious food. As a result, children in these orphanages often experience malnutrition, which can lead to long-term health complications and hinder their physical and cognitive development.</p>
-                        The primary objectives of the Orphanage Nutritious Feeding Program are:
-                        To ensure that children in orphanages receive at least one nutritious meal per day.
-                        To improve the overall health and well-being of orphaned children.
-                        To foster stronger partnerships between orphanages and local food suppliers.
-                        To create a scalable model that can be replicated in other regions.
-                        
-					</div>
+					<p>Jimeta, a heartland city within Adamawa, is home to many orphanages striving to provide a safe haven for children in need.  
+						However, a critical challenge stands in the way of their well-being: ensuring access to nutritious meals.  
+						Limited funding, disrupted supply chains, and restricted access to essential food groups often leave these children facing malnutrition. 
+						This malnutrition can have devastating consequences, hindering their physical and cognitive development and impacting their health for years to come.
+					</p>
+					<p>
+						Jimeta's Orphanage Nutritious Feeding Program is rising to meet this challenge. Our program has several key objectives:
+					</p>
+					<ol>		
+						<li> <b>Guaranteed Daily Nutrition:</b> Our primary goal is to ensure every child in Jimeta's orphanages receives at least one nutritious meal every day. This will provide them with the essential building blocks they need to grow and develop.</li>
+						<li> <b>Healthier Futures:</b> By providing a strong nutritional foundation, we aim to improve the overall health and well-being of Jimeta's orphaned children. This includes boosting their immune systems, increasing their energy levels, and reducing their risk of chronic diseases.</li>
+						<li> <b>Building Stronger Communities:</b> The program fosters partnerships between orphanages and local Jimeta food suppliers. This strengthens the local economy and creates a collaborative environment where everyone plays a role in supporting our most vulnerable community members.</li>
+						<li> <b>A Scalable Solution:</b> Jimeta's program is designed to be a model for success. By demonstrating its effectiveness, we hope to inspire the creation of similar programs in other regions across Nigeria, ensuring all orphaned children have the chance to thrive.</li>
+					</ol>
+					<p>
+						We believe that every child deserves the opportunity to reach their full potential.  Jimeta's Orphans Nutritious Feeding Program is a critical step towards achieving that goal. With your support, we can ensure Jimeta's most vulnerable children have access to the food they need to lead healthy, productive lives.
+					</p>						
+					
 				</div>
 			</div>
-            <div class="row">
-			
-				<div class="col-lg-12 col-md-8">
-					<div class="case-content pl-4 mt-4 mt-lg-0">
-						<h3 class="mb-3">Program Objectives</h3>
-                        <p>The primary objectives of the Orphanage Nutritious Feeding Program are:
-                        To ensure that children in orphanages receive at least one nutritious meal per day.
-                        To improve the overall health and well-being of orphaned children.
-                        To foster stronger partnerships between orphanages and local food suppliers.
-                        To create a scalable model that can be replicated in other regions.</p>
-                        
-					</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-8">
+				<div class="case-content pl-4 mt-4 mt-lg-0">
+					<h3 class="mb-3">Program Objectives</h3>
+					<p>The primary objectives of the Orphanage Nutritious Feeding Program are:
+					To ensure that children in orphanages receive at least one nutritious meal per day.
+					To improve the overall health and well-being of orphaned children.
+					To foster stronger partnerships between orphanages and local food suppliers.
+					To create a scalable model that can be replicated in other regions.</p>
+					
 				</div>
 			</div>
-		<!-- </div>-->
+		</div>
 	</div>
 </section> 
 
 
-<!-- <section class="section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="mb-5 mb-lg-0">
-					<img src="images/about/process-1.jpg" alt="" class="img-fluid">
-					<h4 class="mt-3">Our Strategies</h4>
-					<p>Ducimus recusandae molestias, suscipit neque, sit inventore. Totam, adipisci eos numquam libero. Quasi dolore pariatur alias eligendi!</p>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<div class="mb-5 mb-lg-0">
-					<img src="images/about/process-2.jpg" alt="" class="img-fluid">
-					<h4 class="mt-3">Our Challenges</h4>
-					<p>Eveniet nisi eius qui necessitatibus exercitationem, quam suscipit harum, nostrum reprehenderit nobis error</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="mb-0">
-					<img src="images/about/process-3.jpg" alt="" class="img-fluid">
-					<h4 class="mt-3">Our Success</h4>
-					<p>Eveniet nisi eius qui necessitatibus exercitationem, quam suscipit harum, nostrum reprehenderit nobis error</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-
-<!-- <section class="section single-testimonial bg-gray">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-3">
-				<div class="single-testimonial-block text-center">
-					<h2 class="mb-4">Testimonial</h2>
-					<img src="images/team/testimonial1.jpg" alt="" class="img-fluid rounded-circle">
-
-					<div class="info mb-4 mt-4">
-						<h6 class="mb-0">John Partho</h6>
-						<span>Newyork USA</span>
-					</div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ex atque pariatur consequuntur maiores asperiores laudantium repellendus dolore quia eaque reprehenderit aliquam, quisquam similique dignissimos quas culpa eum fugit. Dolore.
-					</p>
-				</div>
-			</div>
-            
-		</div>
-	</div>
-</section> -->
 
 <section class="cta-2 bg-light">
 	<div class="container">
@@ -370,6 +342,28 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
     
     <script src="js/script.js"></script>
+
+	<script>
+        $('.portfolio-menu ul li').click(function(){
+         	$('.portfolio-menu ul li').removeClass('active');
+         	$(this).addClass('active');
+         	
+         	var selector = $(this).attr('data-filter');
+         	$('.portfolio-item').isotope({
+         		filter:selector
+         	});
+         	return  false;
+         });
+         $(document).ready(function() {
+         var popup_btn = $('.popup-btn');
+         popup_btn.magnificPopup({
+         type : 'image',
+         gallery : {
+         	enabled : true
+         }
+         });
+         });
+    </script>
 
   </body>
   </html>
